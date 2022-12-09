@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive rating component</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="index.js" defer></script>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+  </head>
+  <body>
+    <main class="container middleContent">
+      <div class="card">
+        <div class="starContainer">
+          <div class="circle middleContent">
+            <img src="./images/icon-star.svg" />
+          </div>
+        </div>
+        <div class="textContainer">
+          <h3 class="titr">How did we do?</h3>
+          <p class="context">
+            Please let us know how we did with your support request. All
+            feedback is appreciated to help us improve our offering!
+          </p>
+        </div>
+        <div class="rate">
+          <div class="middleContent">
+            <input type="radio" name="rating" id="r1" value="1"/> 
+            <label for="r1" class="context circle middleContent">1</label>
+          </div>
+          <div class="middleContent">
+            <input type="radio" name="rating" id="r2" value="2" /> 
+            <label for="r2" class="context circle middleContent">2</label>
+          </div>
+          <div class="middleContent">
+            <input type="radio" name="rating" id="r3" value="3" /> 
+            <label for="r3" class="context circle middleContent">3</label>
+          </div>
+          <div class="middleContent">
+            <input type="radio" name="rating" id="r4" value="4" /> 
+            <label for="r4" class="context circle middleContent">4</label>
+          </div>
+          <div class="middleContent">
+            <input type="radio" name="rating" id="r5" value="5" /> 
+            <label for="r5" class="context circle middleContent">5</label>
+          </div>
+        </div>        
+        <div class="btnContainer">
+          <button class="submitBtn" type="button">SUBMIT</button>
+        </div>
+      </div>
+    </main>
+    <template id="submitTemplate">
+      <div class="middleContent anim">
+        <img src="images/illustration-thank-you.svg">
+      </div>
+      <div class="middleContent resultContainer anim">
+        <p class="context result"></p>
+      </div>
+      <div class="middleContent textContainer anim">
+        <h3 class="titr">Thank you!</h3>
+        <p class="context middleContext">
+          We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!
+        </p>
+      </div>
+    </template>
+    <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  </body>
+</html>
