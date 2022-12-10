@@ -8,7 +8,9 @@ This is a solution to the [Interactive rating component challenge on Frontend Me
   - [The challenge](#the-challenge)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
+- [Live Site URL](#live-site-url)
 - [Author](#author)
+
 ## Overview
 
 This solution is done using HTML, CSS and JavaScript.
@@ -33,6 +35,10 @@ Users should be able to:
  - FlexBox
  - Working with Template tag
  - CSS Animation
+ 
+ ## Live Site URL 
+- https://nooshing.github.io/interactiveRatingComponent/
+
 ## Author
 
 - Frontend Mentor - [@NooshinG](https://www.frontendmentor.io/profile/NooshinG)
